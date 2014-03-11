@@ -1,8 +1,21 @@
-$navbar-default-bg:		#e74c3c;
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+$font-family-sans-serif:	'Varela Round', sans-serif;
+$navbar-default-bg:		#FFFFFF;
 $navbar-default-link-color: 	#2c3e50;
-$body-bg:		#34495e;
-$brand-primary:		#f1c40f;
-$jumbotron-bg:		#bdc3c7;
+$navbar-default-brand-color: 	#c0392b;
+$navbar-height:		45px;
+$body-bg:		#ecf0f1;
+$brand-primary:		#c0392b;
+$jumbotron-bg:		#FFFFFF;
 
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
